@@ -8,7 +8,7 @@ class NavBar extends Component {
     render() {
         return (
             <div>
-             <Navbar expand="lg">
+             <Navbar fixed='top' expand="lg">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
